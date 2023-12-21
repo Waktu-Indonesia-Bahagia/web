@@ -1,0 +1,138 @@
+main {
+    grid-area: main;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+main .box-shadow {
+    width: calc(100% - 5em);
+    max-width: 1050px;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+main .box-shadow .box-top {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em 0;
+    box-sizing: border-box;
+    /* background-color: lightblue; */
+}
+
+main .box-shadow .box-top .top-pendaftaran .alert {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+    border: none !important;
+    margin: 0 !important;
+}
+
+main .box-shadow .box-top .top-pendaftaran .alert .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+    font-family: "Poppins-Light";
+    font-size: 0.8rem;
+    color: #333;
+}
+
+main .box-shadow .box-top .top-pendaftaran .alert .text p {
+    margin: 0 !important;
+}
+
+main .box-shadow .box-top .top-pendaftaran .alert .text p:first-of-type {
+    font-family: "Poppins-Medium";
+    font-size: 0.8rem;
+    color: #333;
+    line-height: 1.5em;
+}
+
+main .box-shadow .box-top .top-pendaftaran .alert .text p:last-of-type {
+    font-family: "Poppins-Light";
+    font-size: 0.8rem;
+    color: #333;
+    line-height: 1.5em;
+    display: inline;
+}
+
+main .box-shadow .box-top .top-pendaftaran .alert button.btn-close {
+    box-shadow: none !important;
+    margin: 0 !important;
+}
+
+main .box-shadow .box-top .middle-pendaftaran {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+main .box-shadow .box-top .middle-pendaftaran h1 {
+    font-family: "Poppins-SemiBold";
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0 !important;
+}
+
+main .box-shadow .box-top .middle-pendaftaran p {
+    font-family: "Poppins-Light";
+    font-size: 0.75rem;
+    color: #333;
+    margin-bottom: 0 !important;
+    line-height: 1.5em;
+}
+
+main .box-shadow .box-top .bottom-pendaftaran form .mb-3 label {
+    font-family: "Poppins-Regular";
+    font-size: 0.85rem;
+    color: #333;
+    line-height: 1.5em;
+}
+
+main .box-shadow .box-top .bottom-pendaftaran form .mb-3 input {
+    font-family: "Poppins-Light";
+    font-size: 0.85rem;
+    color: #333;
+    box-shadow: none !important;
+    background-color: #fff;
+    border: 0.5px solid #19AC4B;
+}
+
+main .box-shadow .box-top .bottom-pendaftaran form .mb-3 select {
+    font-family: "Poppins-Light";
+    font-size: 0.85rem;
+    color: #333;
+    box-shadow: none !important;
+    border: 0.5px solid #19AC4B;
+}
+
+main .box-shadow .box-top .bottom-pendaftaran form button {
+    font-family: "Poppins-Light";
+    font-size: 0.85rem;
+    color: #fff;
+    background-color: #19AC4B;
+    border: none;
+}
+
+main .box-shadow .box-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    box-sizing: border-box;
+}
+
+main .box-shadow .box-bottom p {
+    margin: 0 !important;
+    text-align: center;
+    font-family: "Poppins-Regular";
+    font-size: 0.8rem;
+    color: #333;
+    line-height: 1.3em;
+}

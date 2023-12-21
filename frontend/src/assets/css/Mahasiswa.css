@@ -1,0 +1,203 @@
+main {
+    grid-area: main;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+main .box-shadow {
+    width: calc(100% - 5em);
+    max-width: 1050px;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+main .box-shadow .box-top-mhs {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em 0;
+    box-sizing: border-box;
+}
+
+main .box-shadow .box-top-mhs .top-mahasiswa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+main .box-shadow .box-top-mhs .top-mahasiswa h1 {
+    font-family: "Poppins-SemiBold";
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0 !important;
+}
+
+main .box-shadow .box-top-mhs .top-mahasiswa p {
+    font-family: "Poppins-Light";
+    font-size: 0.75rem;
+    color: #333;
+    margin-bottom: 0 !important;
+    line-height: 1.5em;
+}
+
+main .box-shadow .box-top-mhs .middle-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+main .box-shadow .box-top-mhs .middle-main .left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+main .box-shadow .box-top-mhs .middle-main .left form input {
+    border: none;
+    font-family: "Poppins-Light";
+    font-size: 0.8rem;
+    color: #333;
+    border-bottom: 0.5px solid #333;
+}
+
+main .box-shadow .box-top-mhs .middle-main .left form input:focus {
+    outline: none;
+}
+
+main .box-shadow .box-top-mhs .middle-main .right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main .box-shadow .box-top-mhs .middle-main .right a {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 1.7em;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: #A8DF8E;
+}
+
+main .box-shadow .box-top-mhs .middle-main .right a p {
+    display: none;
+}
+
+main .box-shadow .box-top-mhs .bottom-mahasiswa {
+    display: flex;
+}
+
+main .box-shadow .box-top-mhs .bottom-mahasiswa .tbl-mhs {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+}
+
+main .box-shadow .box-top-mhs .bottom-mahasiswa .tbl-mhs .shadow {
+    display: grid;
+    grid-template-rows: auto 1fr auto; 
+    overflow-x: auto;
+    box-shadow: none !important;
+}
+
+main .box-shadow .box-top-mhs .bottom-mahasiswa .tbl-mhs .tbl-head {
+    display: grid;
+    grid-template-columns: 50px repeat(10, 150px);
+}
+
+main .box-shadow .box-top-mhs .bottom-mahasiswa .tbl-mhs .tbl-head p {
+    font-family: "Poppins-Regular";
+    font-size: 0.9rem;
+    color: #333;
+    text-align: center;
+    flex: 1;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+    background-color: #A8DF8E;
+}
+
+main .box-shadow .box-top-mhs .bottom-mahasiswa .tbl-mhs .tbl-body {
+    display: flex;
+    flex-direction: column;
+}
+
+main .box-shadow .box-top-mhs .bottom-mahasiswa .tbl-mhs .tbl-body .rows {
+    display: grid;
+    grid-template-columns: 50px repeat(10, 150px);
+    border-bottom: 0.5px solid #333;
+}
+
+main .box-shadow .box-top-mhs .bottom-mahasiswa .tbl-mhs .tbl-body .rows p {
+    font-family: "Poppins-Light";
+    font-size: 0.85rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.3em;
+    flex: 1;
+    padding: 10px 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+main .box-shadow .box-top-mhs .bottom-mahasiswa .tbl-mhs .tbl-body .rows p.email {
+    line-height: 5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+main .box-shadow .box-top-mhs .bottom-mahasiswa .tbl-mhs .tbl-body .rows p.aksi {
+    display: flex;
+    gap: 1em;
+}
+
+main .box-shadow .box-top-mhs .bottom-mahasiswa .tbl-mhs .tbl-body .rows p.aksi a {
+    text-decoration: none;
+}
+
+main .box-shadow .box-top-mhs .bottom-mahasiswa .tbl-mhs .shadow .paginate nav {
+    display: flex;
+    align-items: center;
+    padding: 1em 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+main .box-shadow .box-top-mhs .bottom-mahasiswa .tbl-mhs .shadow .paginate nav ul li a {
+    font-family: "Poppins-Regular";
+    font-size: 0.8rem;
+    color: #333;
+    background-color: #fff;
+    border: 0.5px solid #A8DF8E;
+    box-sizing: border-box;
+}
+
+main .box-shadow .box-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    box-sizing: border-box;
+}
+
+main .box-shadow .box-bottom p {
+    margin: 0 !important;
+    text-align: center;
+    font-family: "Poppins-Regular";
+    font-size: 0.8rem;
+    color: #333;
+    line-height: 1.3em;
+}

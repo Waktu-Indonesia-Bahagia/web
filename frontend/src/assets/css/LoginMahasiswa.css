@@ -1,0 +1,220 @@
+main.login-register {
+    grid-area: main;
+    background-color: #fff;
+}
+
+main.login-register .box-shadow {
+    width: 100%;
+    position:absolute;
+    z-index: 1;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    max-width: 1050px;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+main.login-register .box-shadow .box-top {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em 0;
+    box-sizing: border-box;
+}
+
+main.login-register .box-shadow .box-top .top-profil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+main.login-register .box-shadow .box-top .top-profil h1 {
+    font-family: "Poppins-SemiBold";
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+
+main.login-register .box-shadow .box-top .top-profil p {
+    font-family: "Poppins-Light";
+    font-size: 0.75rem;
+    color: #333;
+    margin-bottom: 0 !important;
+    line-height: 1.5em;
+}
+
+main.login-register .box-shadow .box-top .bottom-profil {
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main {
+    width: 450px;
+    height: 100%;
+    box-shadow: none !important;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main .alert {
+    border: none;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins-Regular";
+    font-size: 0.8rem;
+    color: #333;
+    text-align: center;
+    background-color: #ffd000;
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main .alert p {
+    line-height: 1.5em;
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main .box-login {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(auto, 3);
+    gap: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 
+    11px 11px 0px rgba(24, 24, 24, 0.2),
+    -11px -11px 0px rgba(24, 24, 24, 0.2);
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main .box-login .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main .box-login .title h1 {
+    font-family: "Poppins-Medium";
+    font-size: 1.1rem;
+    color: #333;
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main .box-login .title p {
+    font-family: "Poppins-Regular";
+    font-size: 0.85rem;
+    color: #333;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main .box-login .inputs form .mb-3 input {
+    font-family: "Poppins-Light";
+    font-size: 0.85rem;
+    color: #333;
+    box-shadow: none !important;
+    background-color: #fff;
+    border: 0.5px solid rgba(24, 24, 24, 0.2);
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main .box-login .inputs form .mb-3 input:focus {
+    border: 0.5px solid rgba(51, 51, 51, 0.5);
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main .box-login .inputs form .submit-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main .box-login .inputs form .submit-btn p {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    font-family: "Poppins-Light";
+    font-size: 0.7rem;
+    color: #333;
+    line-height: 1.3em;
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main .box-login .inputs form .submit-btn p a {
+    font-family: "Poppins-Medium";
+    color: rgb(228, 167, 0);
+    text-decoration: none;
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main .box-login .inputs form .submit-btn button.submit-link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins-Light";
+    font-size: 0.85rem;
+    color: #fff;
+    text-decoration: none;
+    background-color: #19AC4B;
+    padding: 0.5em 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 7px;
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main .box-login .with-google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main .box-login .with-google p {
+    font-family: "Poppins-Light";
+    font-size: 0.7rem;
+    color: #333;
+    text-align: center;
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main .box-login .with-google a {
+    width: calc(100% - 5em);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    font-family: "Poppins-Light";
+    font-size: calc(1vmax + 1px);
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.3em;
+    padding: 0.5em;
+    border: 0.5px solid rgba(24, 24, 24, 0.2);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+main.login-register .box-shadow .box-top .bottom-profil .main .box-login .with-google a img {
+    width: calc(1vmin + 1em);
+    display: inline;
+}
+
+main.login-register .box-shadow .box-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    box-sizing: border-box;
+}
+
+main.login-register .box-shadow .box-bottom p {
+    margin: 0 !important;
+    text-align: center;
+    font-family: "Poppins-Regular";
+    font-size: 0.8rem;
+    color: #333;
+    line-height: 1.3em;
+}

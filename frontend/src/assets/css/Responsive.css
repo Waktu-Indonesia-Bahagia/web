@@ -1,0 +1,373 @@
+@media screen and (min-width: 1198px) {
+    main .box-shadow .box-top-mhs .bottom-sertifikat {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+        gap: 1em;
+    }
+
+    main .box-shadow .box-top .service .boxs {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+        gap: 0.5em;
+    }
+}
+
+@media screen and (min-width: 1035px) {
+    main .box-shadow .box-top .bottom-notifikasi .alert .bottom p {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5em;
+        font-family: "Poppins-Medium";
+        font-size: 0.9rem;
+        color: #333;
+        line-height: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1141px) {
+    main .box-shadow .box-top .feature-beranda {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(15%, 1fr));
+        gap: 0.5em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* ROOT */
+    #root {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 60px 50px 1fr;
+        grid-template-areas: 
+            "header"
+            "nav"
+            "main"
+        ;
+    }
+    /* ROOT */
+    
+    /* NAVBAR */
+    nav {
+        width: 100%;
+        grid-area: nav;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    
+    nav .nav-top {
+        display: none;
+    }
+
+    nav .nav-bottom {
+        width: calc(100% - 5em);
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(7, 0.1fr) auto;
+        grid-template-rows: auto;
+        gap: 1em;
+        padding: 0;
+        overflow-x: auto;
+    }
+
+    nav .nav-bottom a {
+        display: grid;
+        grid-template-columns: 0.55fr 1fr;
+        align-content: center;
+        gap: 0;
+        text-decoration: none;
+        border-radius: 0.5em;
+    }
+
+    nav .nav-bottom a:hover {
+        border: none;
+    }
+
+    nav .nav-bottom a.dashboard {
+        background-color: #19AC4B;
+    }
+
+    nav .nav-bottom a .left .box {
+        width: 100%;
+        display: none;
+    }
+    
+    nav .nav-bottom a.dashboard .right h1 {
+        font-family: 'Poppins-Regular';
+        font-size: 0.9rem;
+        color: #fff;
+        margin-bottom: 0 !important;
+    }
+
+    nav .nav-bottom .link-keluar {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0;
+    }
+
+    nav .nav-bottom .link-keluar .line {
+        display: none;
+    }
+
+    nav .nav-bottom a.keluar {
+        display: flex;
+        justify-content: center;
+        border: none;        
+    }
+
+    nav .nav-bottom .link-keluar a.keluar .center h1 {
+        font-family: 'Poppins-Regular';
+        font-size: 0.9rem;
+        color: #fff;
+        margin-bottom: 0 !important;
+    }
+    /* NAVBAR */
+}
+
+@media screen and (max-width: 992px) {
+    main .box-shadow .box-top .service .boxs {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+        gap: 0.5em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* MAIN */
+    main .box-shadow .box-top .top-dashboard .alert .text {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5em;
+        align-items: center;
+        font-family: "Poppins-Light";
+        font-size: 0.8rem;
+        color: #333;
+    }
+
+    main .box-shadow .box-top-mhs .bottom-sertifikat .card-sertifikat .bottom .description {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1em;
+        padding: 0.5em 0;
+        box-sizing: border-box;
+    }
+
+    main .box-shadow .box-top .alert-beranda .alert .text {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5em;
+        align-items: center;
+        font-family: "Poppins-Light";
+        font-size: 0.8rem;
+        color: #333;
+    }
+    /* MAIN */
+}
+
+@media screen and (max-width: 576px) {
+    /* MAIN */    
+    main .box-shadow .box-top .feature-beranda {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(33.3%, 1fr));
+        gap: 0.5em;
+    }
+
+    main .box-shadow .box-top .service .boxs {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(auto-fill , 1fr);
+        gap: 0.5em;
+    }
+
+    main .box-shadow .box-top-mhs .bottom-sertifikat .card-sertifikat .bottom .action {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 0.5em;
+    }
+
+    main.login-register .box-shadow .box-top .bottom-profil .main {
+        width: 100%;
+        height: 100%;
+        box-shadow: none !important;
+        display: flex;
+        flex-direction: column;
+    }
+    /* MAIN */    
+}
+
+@media screen and (min-width: 576px) {
+    /* MAIN */    
+    main .box-shadow .box-top .bottom-dashboard {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(33.3%, 1fr));
+        gap: 15px;
+    }
+
+    main .box-shadow .box-top-mhs .bottom-sertifikat {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(25.3%, 1fr));
+        gap: 1em;
+    }
+
+    main .box-shadow .box-top-mhs .middle-main .link {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    main .box-shadow .box-top-mhs .middle-main .link a {
+        width: auto;
+        display: flex;
+        justify-content: flex-start;
+        font-family: "Poppins-Regular";
+        font-size: 0.85rem;
+        border: none;
+    }
+
+    main .box-shadow .box-top-mhs .bottom-profil .bottom form .mb-3 {
+        display: grid;
+        grid-template-columns: 0.15fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    /* MAIN */
+}
+
+@media screen and (max-width: 400px) {
+    main .box-shadow .box-top-mhs .bottom-sertifikat {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(auto-fill, minmax(1fr, 1fr));
+        gap: 1em;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    /* MAIN */
+    main .box-shadow .box-top .top-pendaftaran .alert .text p:last-of-type {
+        font-family: "Poppins-Light";
+        font-size: 0.8rem;
+        color: #333;
+        line-height: 1.5em;
+        display: none;
+    }
+
+    .form-detail form .rules {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .form-detail form .rules .input-status {
+        width: 100%;
+    }
+
+    .form-detail form .rules .approve {
+        width: 100%;
+    }
+    /* MAIN */
+}
+
+@media screen and (max-width: 376px) {
+    /* HEADER */
+    header .header-right .right {
+        display: none;
+    }
+    /* HEADER */
+
+    /* MAIN */    
+    main .box-shadow .box-top .bottom-dashboard .total .top-total {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 1em;
+    }
+
+    main .box-shadow .box-top .bottom-dashboard .total .top-total .thumbnail {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    main .box-shadow .box-top-mhs .middle-main {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    main .box-shadow .box-top-mhs .middle-main .left form {
+        width: 100%;
+    }
+    
+    main .box-shadow .box-top-mhs .middle-main .left form input {
+        width: 100%;
+        border: none;
+        font-family: "Poppins-Light";
+        font-size: 0.8rem;
+        color: #333;
+        border-bottom: 0.5px solid #333;
+    }
+    
+    main .box-shadow .box-top-mhs .middle-main .right a {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5em;
+        color: #333;
+        text-decoration: none;
+        padding: 7px 1.7em;
+        box-sizing: border-box;
+        border-radius: 7px;
+    }
+
+    main .box-shadow .box-top-mhs .middle-main .right a p {
+        font-family: "Poppins-Regular";
+        font-size: 0.8rem;
+        color: #333;
+        display: inline;
+    }
+
+    main .box-shadow .box-top-mhs .bottom-profil .top {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5em;
+    }
+
+    main .box-shadow .box-top-mhs .bottom-profil .top .thumb {
+        width: 100%;
+        line-height: 0;
+        display: none;
+    }
+
+    main .box-shadow .box-top .feature-beranda {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        gap: 0.5em;
+    }
+
+    main .box-shadow .box-top .bottom-profil .main .box-login .with-google a img {
+        width: calc(1vmin + 1em);
+        display: none;
+    }
+    /* MAIN */    
+}

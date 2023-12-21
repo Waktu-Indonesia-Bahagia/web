@@ -1,0 +1,166 @@
+main {
+    grid-area: main;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+main .box-shadow {
+    width: calc(100% - 5em);
+    max-width: 1050px;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+main .box-shadow .box-top {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em 0;
+    box-sizing: border-box;
+    /* background-color: lightblue; */
+}
+
+main .box-shadow .box-top .top-dashboard .alert {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+    border: none !important;
+    margin: 0 !important;
+}
+
+main .box-shadow .box-top .top-dashboard .alert .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+    font-family: "Poppins-Light";
+    font-size: 0.8rem;
+    color: #333;
+}
+
+main .box-shadow .box-top .top-dashboard .alert .text p {
+    margin: 0 !important;
+}
+
+main .box-shadow .box-top .top-dashboard .alert .text p:first-of-type {
+    font-family: "Poppins-Medium";
+    font-size: 0.85rem;
+    color: #333;
+}
+
+main .box-shadow .box-top .top-dashboard .alert .text p:last-of-type {
+    font-family: "Poppins-Light";
+    font-size: 0.8rem;
+    color: #333;
+    line-height: 1.5em;
+}
+
+main .box-shadow .box-top .top-dashboard .alert button.btn-close {
+    box-shadow: none !important;
+    margin: 0 !important;
+}
+
+main .box-shadow .box-top .middle-dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+    /* background-color: lightcoral; */
+}
+
+main .box-shadow .box-top .middle-dashboard h1 {
+    font-family: "Poppins-SemiBold";
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0 !important;
+}
+
+main .box-shadow .box-top .middle-dashboard p {
+    font-family: "Poppins-Light";
+    font-size: 0.75rem;
+    color: #333;
+    margin-bottom: 0 !important;
+    line-height: 1.5em;
+}
+
+main .box-shadow .box-top .bottom-dashboard {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    gap: 15px;
+    /* background-color: lightgrey; */
+}
+
+main .box-shadow .box-top .bottom-dashboard .total {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    gap: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #A8DF8E;
+}
+
+main .box-shadow .box-top .bottom-dashboard .total .top-total {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em;
+}
+
+main .box-shadow .box-top .bottom-dashboard .total .top-total .thumbnail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .box-shadow .box-top .bottom-dashboard .total .top-total .description {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+main .box-shadow .box-top .bottom-dashboard .total .top-total .description h3 {
+    font-family: "Poppins-Medium";
+    font-size: 0.8rem;
+    color: #333;
+    margin: 0 !important;
+    line-height: 1.5em;
+}
+
+main .box-shadow .box-top .bottom-dashboard .total .top-total .description p {
+    font-family: "Poppins-Medium";
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0 !important;
+}
+
+main .box-shadow .box-top .bottom-dashboard .total .bottom-total { 
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+main .box-shadow .box-top .bottom-dashboard .total .bottom-total progress { 
+    width: 100%;
+}
+
+main .box-shadow .box-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    box-sizing: border-box;
+}
+
+main .box-shadow .box-bottom p {
+    margin: 0 !important;
+    text-align: center;
+    font-family: "Poppins-Regular";
+    font-size: 0.8rem;
+    color: #333;
+    line-height: 1.3em;
+}

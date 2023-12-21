@@ -1,0 +1,283 @@
+main {
+    grid-area: main;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+main .box-shadow {
+    width: calc(100% - 5em);
+    max-width: 1050px;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+main .box-shadow .box-top {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em 0;
+    box-sizing: border-box;
+}
+
+main .box-shadow .box-top .alert-beranda .alert {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+    border: none !important;
+    margin: 0 !important;
+}
+
+main .box-shadow .box-top .alert-beranda .alert .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+    font-family: "Poppins-Light";
+    font-size: 0.8rem;
+    color: #333;
+}
+
+main .box-shadow .box-top .alert-beranda .alert .text p {
+    margin: 0 !important;
+}
+
+main .box-shadow .box-top .alert-beranda .alert .text p:first-of-type {
+    font-family: "Poppins-Medium";
+    font-size: 0.85rem;
+    color: #333;
+}
+
+main .box-shadow .box-top .alert-beranda .alert .text p:last-of-type {
+    font-family: "Poppins-Light";
+    font-size: 0.8rem;
+    color: #333;
+    line-height: 1.5em;
+}
+
+main .box-shadow .box-top .alert-beranda .alert button.btn-close {
+    box-shadow: none !important;
+    margin: 0 !important;
+}
+
+main .box-shadow .box-top .jumbotron-beranda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+main .box-shadow .box-top .jumbotron-beranda .title {
+    display: flex;
+    justify-content: center;
+}
+
+main .box-shadow .box-top .jumbotron-beranda .title h1 {
+    font-family: 'Poppins-SemiBold';
+    font-size: 1.6rem;
+    color: #19AC4B;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+main .box-shadow .box-top .jumbotron-beranda .hero-image {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    gap: 2.5em;
+}
+
+main .box-shadow .box-top .jumbotron-beranda .hero-image img {
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+}
+
+main .box-shadow .box-top .jumbotron-beranda .description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main .box-shadow .box-top .jumbotron-beranda .description .box {
+    width: 100%;
+    max-width: 500px;
+}
+
+main .box-shadow .box-top .jumbotron-beranda .description p {
+    font-family: 'Poppins-Regular';
+    font-size: 0.8rem;
+    color: #333;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+main .box-shadow .box-top .feature-beranda {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 0.5em;
+    padding: 1em 0;
+    box-sizing: border-box;
+}
+
+main .box-shadow .box-top .feature-beranda .box-ftr {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+main .box-shadow .box-top .feature-beranda .box-ftr .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+    background-color: lightgreen;
+}
+
+main .box-shadow .box-top .feature-beranda .box-ftr .top img {
+    max-width: 30px;
+}
+
+main .box-shadow .box-top .feature-beranda .box-ftr .top h3 {
+    text-align: center;
+    font-family: "Poppins-Medium";
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5em;
+}
+
+main .box-shadow .box-top .feature-beranda .box-ftr .bottom {
+    padding: 1em;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+
+main .box-shadow .box-top .feature-beranda .box-ftr .bottom p {
+    text-align: center;
+    font-family: "Poppins-Light";
+    font-size: 0.7rem;
+    color: #333;
+    line-height: 1.5em;
+}
+
+main .box-shadow .box-top .service {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 1.5em;
+}
+
+main .box-shadow .box-top .service .title {
+    display: flex;
+    justify-content: center;
+}
+
+main .box-shadow .box-top .service .title h3 {
+    font-family: "Poppins-SemiBold";
+    font-size: 1.2rem;
+    color: #333;
+}
+
+main .box-shadow .box-top .service .boxs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 0.5em;
+}
+
+main .box-shadow .box-top .service .boxs .box-service {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    gap: 1em;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: #FFD93D;
+}
+
+main .box-shadow .box-top .service .boxs .box-service .top {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1em;
+}
+
+main .box-shadow .box-top .service .boxs .box-service .top .left {
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+main .box-shadow .box-top .service .boxs .box-service .top .left img {
+    line-height: 0;
+}
+
+main .box-shadow .box-top .service .boxs .box-service .top .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .box-shadow .box-top .service .boxs .box-service .top .right p:first-of-type {
+    font-family: "Poppins-Medium";
+    font-size: 0.8rem;
+    color: #333;
+    line-height: 1.5em;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+main .box-shadow .box-top .service .boxs .box-service .top .right p:last-of-type {
+    font-family: "Poppins-Regular";
+    font-size: 0.75rem;
+    color: #333;
+    line-height: 1.5em;
+}
+
+main .box-shadow .box-top .service .boxs .box-service .bottom {
+    display: flex;
+    align-items: center;
+}
+
+main .box-shadow .box-top .service .boxs .box-service .bottom a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    font-family: "Poppins-Regular";
+    font-size: 0.75rem;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #3C486B;
+}
+
+main .box-shadow .box-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    box-sizing: border-box;
+}
+
+main .box-shadow .box-bottom p {
+    margin: 0 !important;
+    text-align: center;
+    font-family: "Poppins-Regular";
+    font-size: 0.8rem;
+    color: #333;
+    line-height: 1.3em;
+}

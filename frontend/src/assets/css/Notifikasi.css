@@ -1,0 +1,107 @@
+main {
+    grid-area: main;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+main .box-shadow {
+    width: calc(100% - 5em);
+    max-width: 1050px;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+main .box-shadow .box-top {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em 0;
+    box-sizing: border-box;
+}
+
+main .box-shadow .box-top .top-notifikasi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+main .box-shadow .box-top .top-notifikasi h1 {
+    font-family: "Poppins-SemiBold";
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0 !important;
+}
+
+main .box-shadow .box-top .top-notifikasi p {
+    font-family: "Poppins-Light";
+    font-size: 0.75rem;
+    color: #333;
+    margin-bottom: 0 !important;
+    line-height: 1.5em;
+}
+
+main .box-shadow .box-top .bottom-notifikasi {
+    display: flex;
+    align-items: center;
+}
+
+main .box-shadow .box-top .bottom-notifikasi .alert {
+    border: none !important;
+    background-color: lightgreen;
+    margin: 0 !important;
+}
+
+main .box-shadow .box-top .bottom-notifikasi .alert .top {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+main .box-shadow .box-top .bottom-notifikasi .alert .top h4 {
+    font-family: "Poppins-Medium";
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.5em;
+}
+
+main .box-shadow .box-top .bottom-notifikasi .alert .top p {
+    font-family: "Poppins-Regular";
+    font-size: 0.85rem;
+    color: #333;
+    line-height: 1.5em;
+}
+
+main .box-shadow .box-top .bottom-notifikasi .alert .bottom {
+    gap: 0.5em;
+}
+
+main .box-shadow .box-top .bottom-notifikasi .alert .bottom p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+    font-family: "Poppins-Medium";
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.5em;
+}
+
+main .box-shadow .box-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    box-sizing: border-box;
+}
+
+main .box-shadow .box-bottom p {
+    margin: 0 !important;
+    text-align: center;
+    font-family: "Poppins-Regular";
+    font-size: 0.8rem;
+    color: #333;
+    line-height: 1.3em;
+}
